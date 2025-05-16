@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Bento grid</title>
+
+  <link href="../src/output.css" rel="stylesheet">
+
+</head>
+
+<!-- desktop: 12 Heigth / 4 widht -->
+
+<body class="bg-[rgb(245,245,244)] md:h-full">
+
+  <main class="
+    px-6 py-10 
+    grid gap-6 
+    grid-cols-1 
+    sm:grid-cols-2 
+    md:grid-cols-4 md:grid-rows-12 
+    mx-auto  
+    md:w-[90%] md:max-w-[900px]  md:h-[900px]
+  ">
+    
+    <!--DESKTOP ORDER 2 -->
+    <article class="bg-Purple500 w-full px-6 py-8 rounded-2xl flex flex-col justify-center text-center text-white font-semibold row-start-1 sm:col-start-1 sm:row-start-1 md:col-span-2 md:col-start-2 md:row-span-4 order-1 md:order-2">
+
+      <p class="text-4xl">Social Media <br class="md:hidden"> <span class="text-Yellow500">10x</span> <i>Faster</i> <br class="md:hidden"> with AI</p>
+      
+      <img class="w-2/3 mx-auto" src="../assets/images/illustration-five-stars.webp" alt="illustration-five-stars">
+      
+      <p class="text-xl font-normal text-white/80">Over 4,000 5-star reviews</p>
+
+    </article>
+    
+    <!--DESKTOP ORDER 5 -->
+    <article class="p-6 bg-white rounded-2xl font-medium row-start-2 md:col-start-2 sm:col-start-2 sm:row-start-1 md:row-start-5 md:row-span-3 order-2 md:order-5">
+
+      <img src="../assets/images/illustration-multiple-platforms.webp" alt="illustration-multiple-platforms">
+
+      <p class="text-xl">Manage multiple accounts and platforms.</p>
+      
+    </article>
+  
+    <!--DESKTOP ORDER 6 -->
+    <article class="
+      bg-Yellow500 
+      px-6 pt-4 
+      rounded-2xl 
+      font-medium 
+      overflow-hidden 
+      row-start-3 
+      sm:col-start-1 sm:row-start-2 
+      md:col-start-3 md:row-start-5 md:row-span-3 
+      order-3 md:order-6
+    ">
+      
+      <p class="text-xl">Maintain a consistent posting schedule.</p>
+
+      <img class="w-2/3 md:w-full translate-y-4 md:translate-y-0" src="../assets/images/illustration-consistent-schedule.webp" alt="illustration-consistent-schedule">
+      
+    </article>
+    
+    <!--DESKTOP ORDER 3 -->
+    <article class="
+    bg-Purple100 
+      p-6 md:p-4
+      rounded-2xl 
+      grid 
+      md:content-between
+      gap-4 md:gap-0
+      text-center 
+      row-start-4 md:row-span-7 
+      oreder-4 md:order-3
+      md:relative
+      md:overflow-hidden
+    ">
+      
+      <p class="font-bold text-xl">Schedule to social media.</p>
+
+      <img class="
+        md:absolute 
+        md:top-1/2 md:right-0 
+        md:object-cover md:object-left 
+        md:translate-y-[-55%] md:translate-x-4   
+        md:h-[260px] md:aspect-square
+      " src="../assets/images/illustration-schedule-posts.webp" alt="illustration-schedule-posts">
+      
+      <p class="font-medium text-Black007/80 text-left">Optimize post timings to publish content at the perfect time for your audience.</p>
+
+    </article>
+    
+    <!--DESKTOP ORDER 8 -->
+    <article class="
+      bg-Purple500 
+      px-16 py-6 md:p-6
+      rounded-2xl 
+      text-center md:text-left
+      grid gap-6
+      md:flex
+      row-start-5 
+      sm:col-start-1 sm:row-start-3 
+      md:col-start-3 md:col-span-2 md:row-start-8 md:row-span-3 
+      order-5 md:order-8
+    ">
+
+      <img class="" src="../assets/images/illustration-grow-followers.webp" alt="illustration-grow-followers">
+      
+      <p class="text-white text-2xl font-medium leading-6 md:m-auto">Grow followers with non-stop content.</p>
+      
+    </article>
+    
+    <!--DESKTOP ORDER 7 -->
+    <article class="
+      bg-white 
+      p-4 
+      rounded-2xl 
+      grid 
+      gap-4 md:gap-1 
+      row-start-6 sm:col-start-2 sm:row-start-3 md:col-start-2 md:row-start-8 md:row-span-3 
+      order-6 md:order-7
+    ">
+      
+      <p class="text-4xl font-medium">>56%</p> 
+      <p class="text-Black007/80 font-medium">faster audience growth</p>
+
+      <img class="w-2/3 md:w-11/12" src="../assets/images/illustration-audience-growth.webp" alt="illustration-audience-growth">
+
+    </article>
+
+    <!--DESKTOP ORDER 1 -->
+    <article class="
+      bg-Yellow100 
+      p-6 rounded-2xl 
+      flex flex-col 
+      gap-4 
+      justify-center 
+      sm:row-start-4 md:row-span-5 oreder-7 md:order-1">
+
+      <p class="text-2xl font-medium">Create and schedule content <i class="text-Purple500">quicker.</i></p>
+
+      <img class="w-2/3 md:w-full" src="../assets/images/illustration-create-post.webp" alt="illustration-create-post">
+      
+    </article>
+    
+    <!--DESKTOP ORDER 4 -->
+    <article class="
+      bg-Yellow500 
+      p-6 
+      rounded-2xl 
+      grid gap-4 
+      md:col-start-1 md:row-span-5 
+      order-8 md:order-4">
+
+      <p class="text-2xl font-medium">Write your content using AI.</p>
+
+      <img class="w-2/3" src="../assets/images/illustration-ai-content.webp" alt="illustration-ai-content">
+      
+    </article>
+    
+  </main>
+
+  <footer class="attribution absolute bottom-0 bg-[rgb(34,47,62)] w-full p-4 text-white text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="text-[rgb(59,147,212)]">Frontend Mentor</a>. 
+    Coded by <a href="https://luisortega27.github.io/portfolio/" class="text-[rgb(59,147,212)]">Luis F. Ortega</a>.
+  </footer>
+  
+</body>
+</html>
